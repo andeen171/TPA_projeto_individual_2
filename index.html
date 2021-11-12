@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinanceSim</title>
+    <link rel="stylesheet" href="src/css/main.css">
+  </head>
+  <body>
+    <main>
+      <div class="section">
+
+        <div class="title"> Simulador de financiamento </div>
+
+        <div class="input">
+            <input placeholder="Nome" type="text" id='name' required="required">
+       </div>
+
+        <div class="input">
+             <input placeholder="Qual sua renda mensal" type="number" id='renda' required="required">
+        </div>
+
+        <div class="input">
+          <input placeholder="Valor do bem financiado" type="number" id='value' required="required" >
+        </div>
+
+        <div class="input">
+            <input placeholder="Valor de entrada" type="number" id='entrada' required="required" >
+          </div>
+
+          <div class="input">
+            <input placeholder="Taxa de juros" type="number" id='juros' required="required" >
+          </div>
+
+          <div class="input">
+            <input placeholder="Numero de prestacoes" type="number" id='prestacoes' required="required" >
+          </div>
+        
+        <button id='calcular'>Calcular</button>
+
+        <div class="result" id='result'></div>
+
+
+      </div>
+    </main>
+    <script src="src/js/main.js"></script>
+  </body>
+</html>
